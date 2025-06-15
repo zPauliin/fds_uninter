@@ -1,9 +1,67 @@
-#painel-sobre{
-	margin-top: 20px;
+
+body{
+    background-color: rgb(221, 241, 247);
+    h1{
+     color: blue;  
+     font-family: 'Times New Roman', Times, sans-serif;
+     text-align: center;
+     }
+     
+    p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    ul li{
+        
+        margin: 10px;
+    }
+
+    .img-natureza {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
-.titulo-clientes{
-	background-color: #0275D8;
-	padding: 10px;
-	
+    img{
+       width: 300px; 
+       height:200px;
+    }
+  table {
+        font-family: 'Times New Roman', Times, sans-serif;
+         width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        color :brown;
+}
+ 
+  #islandia{
+    color: blue;
+    text-align:justify;
+    font-size: 25px;
+  }
+  #italia{
+    color:red;
+     text-align:justify;
+      font-size: 25px;
+  }
+  #inglaterra{
+    color:rgb(168, 146, 122);
+     text-align:justify;
+      font-size: 25px;
+  }
+
+  a {
+  color: blue;
+  
+}
+
+a:hover {
+  color: red; 
+ 
+}
+
+
 }
